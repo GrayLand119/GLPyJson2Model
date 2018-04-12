@@ -12,7 +12,7 @@ PyQt5 写的Json转Model工具, 支持多平台Mac,Windows,Linux
 * Mac: `/dist/GLPyJson2Model.app`
 * Windows: `GLPyJson2Model.exe`
 
-[DemoImg](./imgs/demo-mac.png)
+![DemoImg](./imgs/demo-mac.png)
 
 ## TODO:
 
