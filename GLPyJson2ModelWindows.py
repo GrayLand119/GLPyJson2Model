@@ -23,7 +23,7 @@ class GLPyJson2ModelWindows(QMainWindow):
                      'gender': '1',\
                      'age': '28'}"
 
-        self.ui.jsonEdit.setText()
+        self.ui.jsonEdit.setText(testStr1)
 
     @pyqtSlot()
     def onConvert(self):
@@ -50,7 +50,7 @@ class GLPyJson2ModelWindows(QMainWindow):
 
         print(pyDict)
 
-        outPutStr = "\n"
+        outPutStr = ""
         keys = list(pyDict.keys())
         if len(keys) == 1:
             k1: str = keys[0]
