@@ -37,7 +37,7 @@ class GLPyJson2ModelWindows(QMainWindow):
             return
 
         jsonStr = jsonStr.replace('\'', '\"')
-        print(jsonStr)
+        # print(jsonStr)
         try:
             pyDict: dict = json.loads(jsonStr)
         except Exception as e:
@@ -48,7 +48,7 @@ class GLPyJson2ModelWindows(QMainWindow):
                                 QMessageBox.Ok)
             return
 
-        print(pyDict)
+        # print(pyDict)
 
         outPutStr = ""
         keys = list(pyDict.keys())
